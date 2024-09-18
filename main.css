@@ -1,0 +1,61 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color: rgba(0, 128, 0, 0.822);
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: rgba(0, 128, 0, 0.822);;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover{  
+    color: #fff;
+}
+
+.navbar-toggler{
+    background-color: #ffeae6 ;
+}
+
+.section-title {
+    font-family: Pacifico, cursive;
+}
+
+
+#sobre-a-pizzaria, #cardapio {
+    background-color: #ffeae6;
+}
+
+.text-colored{
+    color: rgba(0, 128, 0, 0.822);;
+}
+
+.nav-cardapio .nav-link.active,
+#fale-conosco button {
+    background-color: rgba(0, 128, 0, 0.822);;
+    color: #fff;
+}
+
+.nav-cardapio .nav-link:hover {
+    color: rgba(0, 128, 0, 0.822);;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a{
+    text-decoration: none;
+}
+
+@media (max-width:767px){
+    .carousel-item img {
+        height: 280px;
+    }
+}
